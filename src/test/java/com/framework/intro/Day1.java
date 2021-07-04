@@ -19,5 +19,13 @@ public class Day1 {
 		 driver.manage().window().maximize();
 		
 	}
+	public static void main3(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Prabhu Logesh\\eclipse-workspace\\OnlineFrameWorkMay24\\Drive\\chromedriver.exe");
+		 WebDriver driver = new ChromeDriver();
+		 
+		 driver.get("https://www.flipkart.com/");
+		 driver.manage().window().maximize();
+		 
+	}
 
 }
